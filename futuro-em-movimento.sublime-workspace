@@ -1,0 +1,492 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"fl",
+				"flex-direction\tproperty"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"po",
+				"position\tproperty"
+			],
+			[
+				"boo",
+				"bottom\tproperty"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"bo",
+				"border-radius\tproperty"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"men",
+				"menu-item"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"colun",
+				"column-reverse\tflex-flow"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"m",
+				"main\tTag"
+			],
+			[
+				"backg",
+				"background-attachment\tproperty"
+			],
+			[
+				"ma",
+				"margin-left\tproperty"
+			],
+			[
+				"re",
+				"transparent\tcolor"
+			],
+			[
+				"b",
+				"background-color\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"fi",
+				"figure\tTag"
+			],
+			[
+				"f",
+				"flex\tdisplay"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"ha",
+				"header\tTag"
+			],
+			[
+				"sy",
+				"style"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"e",
+				"E-mail"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"t",
+				"td\tTag"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"sa",
+				"sasicha"
+			],
+			[
+				"head",
+				"header\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/vai-na-web-04/Documentos/PROA/futuro em movimento.css",
+		"/home/vai-na-web-04/Documentos/Futuro-Movimento/futuro-em-movimento.html",
+		"/home/vai-na-web-04/Documentos/PROA/futuro em movimento.html",
+		"/home/vai-na-web-04/Downloads/java/slide-com-javascript-puro-master/index.html",
+		"/home/vai-na-web-04/Documentos/p.r.o.a/PROA/index.html",
+		"/home/vai-na-web-04/Documentos/p.r.o.a/PROA/assets/styles.css",
+		"/home/vai-na-web-04/Documentos/renan/PROA/index.html",
+		"/home/vai-na-web-04/Documentos/renan/PROA/assets/styles.css",
+		"/home/vai-na-web-04/Documentos/caroline/index5.html",
+		"/home/vai-na-web-04/Documentos/kamile/estilo.css",
+		"/home/vai-na-web-04/Documentos/jezielsilva/Oca-dos-Curumins/projeto final.html",
+		"/home/vai-na-web-04/Documentos/jezielsilva/Oca dos Curumins/projeto final.html",
+		"/home/vai-na-web-04/Documentos/jezielsilva/aula dia 03 05/desafio de hoje.html",
+		"/home/vai-na-web-04/Documentos/jezielsilva/aula dia 03 05/desafio de hoje.css",
+		"/home/vai-na-web-04/Documentos/joaozin l /desafio de hoje.css",
+		"/home/vai-na-web-04/Documentos/joaozin l /desafio de hoje.html",
+		"/home/vai-na-web-04/Documentos/jezielsilva/meu-perfil/minhapagina.html",
+		"/home/vai-na-web-04/Documentos/jezielsilva/meu-perfil/minhapagina.css",
+		"/home/vai-na-web-04/Documentos/jezielsilva/desafio-aula-01-04/jeziesilva.html",
+		"/home/vai-na-web-04/Documentos/jezielsilva/desafio-aula-01-04/style.css",
+		"/home/vai-na-web-04/Documentos/Erlane M./quadrado.html",
+		"/home/vai-na-web-04/Documentos/Erlane M./quadrado.css",
+		"/home/vai-na-web-04/Documentos/Erlane M./mobile.html",
+		"/home/vai-na-web-04/Documentos/Erlane M./mobile.css",
+		"/home/vai-na-web-04/Documentos/caroline/index4.html",
+		"/home/vai-na-web-04/Documentos/caroline/style3.css",
+		"/home/vai-na-web-04/Documentos/caroline/Index2.html",
+		"/home/vai-na-web-04/Documentos/Erlane M./index.html",
+		"/home/vai-na-web-04/Documentos/Erlane M./trabalho.css",
+		"/home/vai-na-web-04/Área de Trabalho/casa.css",
+		"/home/vai-na-web-04/Área de Trabalho/casinha.html",
+		"/casa.css",
+		"/home/vai-na-web-04/Documentos/zr/style.css",
+		"/home/vai-na-web-04/Documentos/zr/index.html",
+		"/home/vai-na-web-04/Documentos/zr/monstro.css",
+		"/home/vai-na-web-04/Documentos/zr/monstrinho.html",
+		"/home/vai-na-web-04/Documentos/Erlane M./trabalho.html",
+		"/home/vai-na-web-04/Documentos/roberta/22.04/style.css",
+		"/home/vai-na-web-04/Documentos/roberta/22.04/index.html",
+		"/home/vai-na-web-04/Documentos/roberta/01.04.19/index.html",
+		"/home/vai-na-web-04/Documentos/Erlane M./style3.css",
+		"/home/vai-na-web-04/Documentos/Erlane M./index3.html",
+		"/home/vai-na-web-04/Documentos/kamile/Filmezando.css",
+		"/home/vai-na-web-04/Documentos/kamile/Filmezando.html",
+		"/Filmezando.html",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo6.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo10.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo18.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo009charlin.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo05.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo13relembrando.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo11.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo10NY.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin VNW - CSS/estilo17.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin VNW - CSS/estilo15LAD.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin VNW - CSS/estilo14GS.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin VNW - CSS/estilo17FILA.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo181.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo12.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo12udemy.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo14GS.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo15LAD.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo16.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas/estilo17.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin  VNW - HTML/estilo6.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin  VNW - HTML/estilo15LAD.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin  VNW - HTML/estilo181.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin  VNW - HTML/estilo05.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin  VNW - HTML/estilo9charlin.css",
+		"/media/vai-na-web-04/SEMIRAMES/Semírames 6/estilo10.css",
+		"/media/vai-na-web-04/SEMIRAMES/Semírames 6/estilo12.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin  VNW - HTML/estilo14GS (cópia).css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin  VNW - HTML/estilo13relembrando.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin  VNW - HTML/estilo10NY.css",
+		"/media/vai-na-web-04/SEMIRAMES/Aulas do Kelvin  VNW - HTML/estilo12udemy.css",
+		"/home/vai-na-web-04/Documentos/Semirames/indexflaxbox.html",
+		"/home/vai-na-web-04/Documentos/geysa/style.css",
+		"/home/vai-na-web-04/Documentos/Semirames/index4sorvetetabela.html",
+		"/home/vai-na-web-04/Documentos/Perfil/perfil/perfil.html",
+		"/home/vai-na-web-04/Documentos/teste/oioioi.css",
+		"/home/vai-na-web-04/Documentos/teste/oioioi.html",
+		"/home/vai-na-web-04/Documentos/Perfil/perfil/perfil.css",
+		"/home/vai-na-web-04/Documentos/perfilzin/perfil/perfil.html",
+		"/home/vai-na-web-04/Documentos/teste/teste.txt",
+		"/home/vai-na-web-04/Documentos/teste/txt.html",
+		"/home/vai-na-web-04/Documentos/perfilzin/perfil/perfil.css",
+		"/home/vai-na-web-04/Documentos/exercicios das aulas/jeziel.html",
+		"/home/vai-na-web-04/Documentos/exercicios das aulas/jezielsilva.html",
+		"/home/vai-na-web-04/Documentos/joaozin l /mec.html",
+		"/home/vai-na-web-04/Documentos/roberta/08.05.19/index.html",
+		"/home/vai-na-web-04/Documentos/Erlane M./Git Hub/Erlane.github.io/meuperfil.css",
+		"/home/vai-na-web-04/Documentos/Erlane M./Git Hub/Erlane.github.io/meuperfil.html",
+		"/home/vai-na-web-04/Documentos/Erlane M./Git Hub/Erlane.github.io/index.html",
+		"/home/vai-na-web-04/Documentos/Erlane M./Git Hub/index.html",
+		"/home/vai-na-web-04/Documentos/Rhuan.github.oi/index.html",
+		"/home/vai-na-web-04/Documentos/roberta/0104.html",
+		"/home/vai-na-web-04/Documentos/roberta/0104.css",
+		"/home/vai-na-web-04/Documentos/roberta/Desafio Instagram/index.html",
+		"/home/vai-na-web-04/Documentos/roberta/index17.html",
+		"/home/vai-na-web-04/Documentos/paloma/Dribbble.html",
+		"/home/vai-na-web-04/Documentos/geysa/styles.css",
+		"/home/vai-na-web-04/Documentos/Erlane M./index2.html",
+		"/home/vai-na-web-04/Documentos/geysa/desafiologo.css",
+		"/home/vai-na-web-04/Documentos/geysa/logoindex.html",
+		"/home/vai-na-web-04/Documentos/geysa/indexprofile.html",
+		"/home/vai-na-web-04/Documentos/roberta/estilo17.css",
+		"/home/vai-na-web-04/Documentos/Semirames/index3fernandabrum.html",
+		"/home/vai-na-web-04/Documentos/Erlane M./style2.css",
+		"/home/vai-na-web-04/Documentos/roberta/index.html",
+		"/home/vai-na-web-04/Documentos/roberta/index.css",
+		"/home/vai-na-web-04/Documentos/caroline/index3.html",
+		"/home/vai-na-web-04/Documentos/caroline/style2.css",
+		"/home/vai-na-web-04/Documentos/Erlane M./style.css",
+		"/home/vai-na-web-04/Documentos/Erlane M./style.css 2",
+		"/home/vai-na-web-04/Documentos/configuração.css",
+		"/home/vai-na-web-04/Documentos/auladehoje.html",
+		"/home/vai-na-web-04/Documentos/style.css",
+		"/home/vai-na-web-04/Documentos/jeziel.html",
+		"/home/vai-na-web-04/Documentos/amanda/style.css",
+		"/home/vai-na-web-04/Documentos/amanda/exercíciodehoje.html",
+		"/home/vai-na-web-04/Documentos/caroline/style.css",
+		"/home/vai-na-web-04/Documentos/caroline/Index.html",
+		"/home/vai-na-web-04/Documentos/douglas/familia.jpeg",
+		"/home/vai-na-web-04/Documentos/indexxx.html",
+		"/home/vai-na-web-04/Documentos/indexguga.html",
+		"/home/vai-na-web-04/Documentos/douglas/untitled.html",
+		"/home/vai-na-web-04/Documentos/douglas/index03.html",
+		"/home/vai-na-web-04/Documentos/douglas/index04.html"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "futuro-em-movimento.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
