@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+}
+
+.conteiner-header {
+	background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 20
+}
+
+.header-logo {
+	width: 100%;
+	height: 20%; 
+}
+
+.caixa-logo {
+	margin: 0;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: rebeccapurple; 
+}
+
+.logo {
+	width: 13vw;
+	height: 20vh;
+}
+
+.conteiner-menu {
+    height: 20%;
+    width: 40%;
+	background-color: yellow;
+	display: flex;
+	justify-content: space-around;
+}
+
+.comando {
+	width: 100%;
+}
+
+.menu-item {
+	/*margin-left: 10%;*/
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu {
+	width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-around;
+    justify-content: space-around;
+	list-style: none;
+	background-color: pinwidth: 50%;
+
+}
+.titulo1-main {
+	display: flex;
+	justify-content: center;
+}
+
+.titulo2-main {
+	margin: 3%;
+	margin-left: 4%;
+}
+
+.discricao-main {
+	margin: 0%;
+}
+
+.caixa-main {
+
+}
+
+.caixa-projeto {
+	width: 92%;
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+}
+
+.discricao-main {
+	width: 31%;
+}
+
+.img-ilustracao {
+	width: 50%;
+	height: 50%;
+	border-radius: 20%;
+}
