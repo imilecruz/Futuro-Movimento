@@ -190,10 +190,56 @@
 }
 
 .caixa-parceria {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: flex-end;
-	margin: 30px;
-	/*background-color: yellow;*/
+	width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caixa-parceria-conteudo {
+	width: 38%;
+}
+
+.titulo-contato {
+	font-size: 45px; 
+	padding-bottom: 30px;
+}
+
+.texto-recrutando {
+	width: 100%;
+	font-size: 22px;
+}
+
+.caixa-contato-textos {
+	width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contato-textos {
+	width: 56%;
+}
+
+.caixa-conteiner-contatos {
+	width: 74%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.conteiner-contatos{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.img-ilustracao-footer{
+	width: 30vw;
+    height: 57vh;
+    border-radius: 50%;
+}
+
+.caixa-contatos {
+	font-size: 27px;
 }
