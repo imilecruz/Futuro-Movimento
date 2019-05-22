@@ -1,0 +1,29 @@
+@font-face{
+	font-family: KorolevB;
+	src: url(fonts/KorolevBold.woff);
+}
+
+@font-face{
+	font-family: KorolevH;
+	src: url(fonts/KorolevHeavy.woff);
+} 
+
+@font-face{
+	font-family: KorolevL;
+	src: url(fonts/KorolevLight.woff);
+}
+
+@font-face{
+	font-family: KorolevM;
+	src: url(fonts/KorolevMedium.woff);
+}
+
+@font-face{
+	font-family: KorolevMedI;
+	src: url(fonts/KorolevMediumItalic.woff);
+}
+
+@font-face{
+	font-family: Comfortaa;
+	src: url(fonts/Comfortaa-Bold.ttf);
+}
