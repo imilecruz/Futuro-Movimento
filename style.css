@@ -4,6 +4,13 @@
 
 .corpo-do-site {
 	background-image: url(./assets/teladefundo.png);
+
+}
+
+@media(max-width: 768px){
+	.corpo-do-site {
+		width: 768px;
+	}
 }
 
 .conteiner-header {
@@ -45,11 +52,35 @@
 	align-items: center;
 }
 
+#btn-menu {
+	display: none;
+}
+
+.menu-mobile {
+	color: #00FFCB;
+	font-size: 25px;
+	display: block;
+	padding: 5px 10px;
+	width: 20px;
+	display: none;
+}
+
+@media(max-width: 768px){
+	.menu-mobile{
+		display: block;
+	}
+
+	.menu{
+		position: absolute;
+		flex-direction: column;
+		margin-right: -2px;
+	}
+}
+
 .comando {
 	width: 100%;
 	font-family: Comfortaa;
 }
-
 
 .menu-item {
 	width: 7vw;
@@ -66,15 +97,14 @@
 
 
 .menu {
-	width: 80%;
+	width: 16%;
     height: 20vh;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     justify-content: space-around;
     list-style: none;
-
+    display: none;
 }
 
 .conteiner-main {
@@ -245,7 +275,6 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    padding-right: 20em;
     color: #FFFFFF;
 }
 
