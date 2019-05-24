@@ -9,7 +9,8 @@
 
 @media(max-width: 768px){
 	.corpo-do-site {
-		width: 768px;
+		width: 100%;
+		background-color: coral;
 	}
 }
 
@@ -74,6 +75,10 @@
 		position: absolute;
 		flex-direction: column;
 		margin-right: -2px;
+	}
+
+	.menu-item:hover{
+
 	}
 }
 
@@ -159,6 +164,12 @@
     border-radius: 80%;
 }
 
+@media (max-width: 768px){
+	.img-ilustracao{
+		display: none;
+	}
+}
+
 .conteiner-atividades {
 	width: 60%;
 	height: 41vh;
@@ -184,12 +195,30 @@
 	font-family: Comfortaa;
 }
 
+@media (max-width: 768px){
+	.conteiner-atividades-itens{
+	    margin: 0;
+	    width: 75vw;
+	    height: 40vh;
+		display: flex;
+	    flex-flow: wrap;
+	    display: none;
+	}
+}
+
 .img-atividade {
 	width: 10vw;
 	height: 14vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+@media(max-width: 768px){
+	.img-atividade{
+		width: 20vw;
+    	height: 15vh;
+	}
 }
 
 .caixa-atividades {
@@ -206,6 +235,13 @@
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 11em;	
+}
+
+@media (max-width: 768px){
+	.caixa-parceria{
+		display: flex;
+    	justify-content: center;
+	}
 }
 
 .titulo-parceiros {
@@ -231,6 +267,14 @@
 	align-items: center;
 }
 
+@media(max-width: 768px){
+	.caixa-logo-parceria{
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	}
+}
+
 .conteiner-footer{
 	
 
@@ -252,11 +296,27 @@
 	font-family: Comfortaa;
 }
 
-.texto-recrutando {
+.texto-recrutando-desktop {
+	display: block;
 	width: 100%;
 	font-size: 22px;
 	font-family: KorolevL;
 }
+
+	@media(max-width: 768px) {
+		.texto-recrutando-desktop{
+			display: none
+		}
+	}
+.box-mobile {
+	display: none;
+}
+
+	@media(max-width: 768px) {
+		.box-mobile {
+			display: block;
+		}
+	}
 
 .caixa-contato-textos {
 	width: 100%;
@@ -283,6 +343,12 @@
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+@media (max-width: 768px){
+	.caixa-footer-img{
+		display: none;
+	}
 }
 
 .img-ilustracao-footer{
