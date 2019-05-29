@@ -10,30 +10,41 @@
 	</head>
 	<body class="corpo-do-site">
 		<header class="conteiner-header">
-			<figure class="caixa-logo">
- 				<img class="logo" src="./assets/logo.svg" alt="logo Futuro em Movimento">
-			</figure>
-			<div class="conteiner-menu">
-				<input type="checkbox" id="btn-menu">
-				<label class="menu-mobile" for="btn-menu">&#9776</label>
-				<nav class="comando">
-			 		<ul class="menu">
-		       			<li><a href="#" class="menu-item">Sobre </a></li>
-		       			<li><a href="#" class="menu-item">Atividades</a></li>
-		        		<li><a href="#" class="menu-item">Contato</a></li>
-		 			</ul>
-				</nav>
+			<div class="caixa-header">
+				<figure class="caixa-logo">
+	 				<img class="logo" src="./assets/logo.svg" alt="logo Futuro em Movimento">
+				</figure>
+				<div class="conteiner-menu">
+					<input type="checkbox" id="btn-menu">
+					<label class="menu-mobile" for="btn-menu">&#9776</label>
+					<nav class="menu">
+				 		<ul class="menu-lista">
+			       			<li><a href="#" class="menu-item">Sobre </a></li>
+			       			<li><a href="#" class="menu-item">Atividades</a></li>
+			        		<li><a href="#" class="menu-item">Contato</a></li>
+			 			</ul>
+					</nav>
+				</div>
 			</div>	
+			<span class="caixa-titulo-main">
+				<h1 class="titulo1-main">Educação que move o mundo</h1>
+			</span>		
 		</header> 
 		<main class="conteiner-main">
-			<section class="conteudo-main">
+			<section class="conteudo-main sobre">
 				<div class="caixa-main">
-					<h1 class="titulo1-main">Educação que move o mundo</h1>
-					<h2 class="titulo2-main">Promovendo atividades desde 2010.</h2>
-					<div class="caixa-projeto">
-						<p class="descricao-main">O projeto foi criado em 2010, em uma época onde a falta de oportunidades para adolescentes era muito grande funcionando desde então promovendo atividades culturais e profissionalizantes gratuitas.</p>
+					<div class="caixa-conteiner-main">						
+						<h2 class="titulo2-main">Promovendo atividades desde 2010.</h2>
+						<div class="caixa-projeto">
+							<span class="caixa-projeto-conteudo">
+								<p class="descricao-main">O projeto foi criado em 2010, em uma época onde a falta de oportunidades para adolescentes era muito grande funcionando desde então promovendo atividades culturais e profissionalizantes gratuitas.</p>
+							</span>
+							<span class="caixa-projeto-slide"></span>
+						</div>
 					</div>
 				</div>
+			<!-- </section> -->
+			<!-- <section class="atividades"> -->
 				<div class="conteiner-atividades">
 					<figure class="ilustracao-atividades">
 						<img class="img-ilustracao" src="./assets/imagemativ.jpg" alt="imagem de ilustração">
@@ -72,10 +83,29 @@
 						<p class="titulos-atividades">Culinária</p>
 					</div>
 				</div>
+			<!-- </section> -->
+			<section class="contato">
+				<div class="caixa-parceria">
+					<div class="caixa-parceria-conteudo">
+						<span class="box-mobile">
+							<p>Estamos sempre precisando de voluntários e parceiros para concretizar as ações</p>.
+							<p> Nos ajude a continuar esse movimento!</p>
+						</span>
+						<p class="titulo-parceiros">Parceiros</p>
+						<div class="caixa-logo-parceria">
+							<figure class="logo-parceria1">
+								<img class="img-logo-parceria" src="./assets/fundation.svg" alt="logo Brazil Foundation">
+							</figure>
+							<figure class="logo-parceria2">
+								<img class="img-logo-parceria" src="./assets/educap_logo.svg" alt="logo Educap">
+							</figure>
+						</div>
+					</div>
+				</div>
 			</section>
 		</main>
 		<footer class="conteiner-footer">
-			<div class="caixa-parceria">
+			<!-- <div class="caixa-parceria">
 				<div class="caixa-parceria-conteudo">
 					<span class="box-mobile">
 						<p>Estamos sempre precisando de voluntários e parceiros para concretizar as ações</p>.
@@ -91,7 +121,7 @@
 						</figure>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="caixa-contato">
 				<div class="caixa-contato-textos">
 					<div class="contato-textos">
@@ -112,7 +142,7 @@
 				</div>
 				<div class="conteiner-ultimo-footer">
 					<div class="ultimo-footer">
-						<p class="texto-desenvedores">Desenvolvido por</p>
+						<p class="texto-desenvolvedores">Desenvolvido por</p>
 						<figure class="caixa-logo-desenvolvedor">
 							<img class="logo-desenvolvedor" src="./assets/logo-vai-na-web.png" alt="logo Vai na Web">
 						</figure>
