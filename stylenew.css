@@ -183,3 +183,39 @@
 	font-family: Comfortaa;
 }
 
+.img-atividade {
+	width: 10vw;
+	height: 14vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.caixa-atividades {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.titulos-atividades {
+	font-size: 23px;
+}
+
+.titulo-parceiros {
+	color: #FFFFFF;
+	font-family: Comfortaa;
+}
+
+.img-logo-parceria {
+	width: 8vw;
+	margin: 28px;
+}
+
+
+.caixa-logo-parceria {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
