@@ -27,6 +27,7 @@
     display: flex;
     align-items: center;
     border-radius: 50%;
+    position: relative;
 }
 
 .logo {
@@ -201,14 +202,21 @@
 	font-size: 23px;
 }
 
+.parceria {
+	height: 35vh;
+}
+
 .titulo-parceiros {
-	width: 40%;
+	width: 100%;
 	color: #FFFFFF;
 	font-family: Comfortaa;
+	font-size: 45px;
+	display: flex;
+    justify-content: center;
 }
 
 .img-logo-parceria {
-	width: 8vw;
+	width: 10vw;
 	margin: 28px;
 }
 
@@ -219,4 +227,103 @@
 	justify-content: flex-end;
 }
 
+.caixa-parceria {
+	width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
 
+.caixa-parceria-conteudo {
+	width: 38%;
+	height: 85%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteiner-footer {
+	background-color: #B124D2;
+	color: #FFFFFF;
+}
+
+.titulo-contato {
+	height: 50%;
+	font-family: Comfortaa;
+	font-size: 45px;
+}
+
+.texto-recrutando-desktop {
+	width: 61vw;
+    height: 15vh;
+	font-size: 22px;
+	font-family: KorolevL;
+}
+
+
+.box-mobile {
+	display: none;
+}
+
+.caixa-contato-textos {
+	width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contato-textos {
+	width: 56%;
+}
+
+.caixa-conteiner-contatos {
+	width: 87%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.conteiner-contatos {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+}    
+
+.img-ilustracao-footer {
+	width: 33vw;
+    border-radius: 50%;
+    position: relative;
+    bottom: -5em;
+}
+
+.caixa-contatos {
+	font-size: 27px;
+	font-family: KorolevB;
+	color: #FFDB39;
+}
+
+.conteiner-ultimo-footer {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 13vh;
+	display: flex;
+	justify-content: center;
+}
+
+.ultimo-footer {
+	width: 11%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: KorolevM;
+    align-items: center;
+}
+
+.texto-desenvolvedores {
+	font-size: 10px;
+	color: #000000;
+}
+.logo-desenvolvedor {
+	width: 50px;
+	height: 30px;
+}
