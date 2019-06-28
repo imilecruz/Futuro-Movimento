@@ -151,12 +151,12 @@
 	font-family: Comfortaa;
 }
 
-	@media (max-width: 768px){
-		.titulo1-main{
-			width: 82%;
-    		font-size: 40px;
-		}
+@media (max-width: 768px){
+	.inicio-titulo {
+		width: 100%;
+		font-size: 250px;
 	}
+}
 
 
 .conteiner-sobre {
