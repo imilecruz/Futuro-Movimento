@@ -151,18 +151,20 @@
 		.sobre-titulo {
 			width: 70%;
     		font-size: 61px;
-    		height: 42%;
+    		height: 18%;
 		}
 	}
 
 .descricao-sobre {
 	width: 33%;
+	font-family: KorolevL;
 }
 
 	@media (max-width: 768px){
 		.descricao-sobre {
 			width: 82%;
     		font-size: 32px;
+
 		}
 	}
 
@@ -181,7 +183,7 @@
 
 	@media(max-width: 768px){
 		.atividades {
-		    height: 80vh;
+		    height: 76vh;
 		    display: flex;
 		    flex-direction: column;
 		    align-items: center;
@@ -281,8 +283,10 @@
 	@media(max-width: 768px){
 		.texto-recrutando-mobile{
 			width: 52%;
+			height: 20vh;
 		    display: block;
 		    font-size: 32px;
+		    font-family: KorolevL;
 		}
 	}
 
@@ -299,17 +303,38 @@
     justify-content: center;
 }
 
+	@media(max-width: 768px){
+		.titulo-parceiros {
+			display: flex;
+			justify-content: flex-start;
+		}
+	}
+
 .img-logo-parceria {
 	width: 10vw;
 	margin: 28px;
 }
 
+	@media(max-width: 768px){
+		.img-logo-parceria {
+			width: 30%;
+		}
+	}
 
 .caixa-logo-parceria {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
 }
+
+	@media(max-width: 768px){
+		.caixa-logo-parceria {
+	       	height: 26vh;
+			display: flex;
+	    	flex-direction: column;
+    		
+		}
+	}
 
 .caixa-parceria {
 	width: 90%;
@@ -318,6 +343,12 @@
     flex-direction: row;
 }
 
+	@media(max-width: 768px){
+		.caixa-parceria {
+			width: 100%;
+		}
+	}
+
 .caixa-parceria-conteudo {
 	width: 38%;
 	height: 85%;
@@ -325,6 +356,12 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+	@media(max-width: 768px){
+		.caixa-parceria-conteudo{
+			width: 70%;
+		}
+	}
 
 .conteiner-footer {
 	background-color: #B124D2;
