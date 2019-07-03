@@ -218,6 +218,12 @@
 		}
 	}
 
+	@media(max-width: 375px){
+		.conteiner-atividades {
+			width: 70%;
+		}
+	}
+
 .titulo-atividades {
 	font-size: 45px; 
 	padding-bottom: 30px;
