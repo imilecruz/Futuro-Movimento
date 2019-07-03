@@ -15,6 +15,7 @@
 
 }
 
+
 .caixa-header {
 	width: 70%;
 	display: flex;	
@@ -212,7 +213,7 @@
 
 	@media(max-width: 768px){
 		.conteiner-atividades {
-			width: 100%;
+			width: 90%;
 		    display: flex;
 		    justify-content: center;
 		}
@@ -221,6 +222,8 @@
 	@media(max-width: 375px){
 		.conteiner-atividades {
 			width: 70%;
+			display: flex;
+			align-items: baseline;
 		}
 	}
 
