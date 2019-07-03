@@ -99,8 +99,8 @@
 
 	@media (max-width: 768px){
 		.inicio-titulo {
-			width: 60%;
-    		font-size: 58px;
+			padding-left: .75rem;
+    		font-size: 2.5rem;
 		}
 	}
 
@@ -129,10 +129,10 @@
 }
 
 .caixa-descricao {
-	width: 100%;
+	width: 80%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 	@media (max-width: 768px){
@@ -143,28 +143,27 @@
 
 .sobre-titulo {
 	width: 85%;
+	padding-bottom: 2rem;
 	font-size: 2.56rem;
     font-family: Comfortaa;
 }
 
 	@media (max-width: 768px){
 		.sobre-titulo {
-			width: 70%;
-    		font-size: 61px;
-    		height: 18%;
+			width: auto;
+    		font-size: 2rem;
 		}
 	}
 
 .descricao-sobre {
-	width: 33%;
+	width: 40%;
 	font-family: KorolevL;
 }
 
 	@media (max-width: 768px){
 		.descricao-sobre {
-			width: 82%;
-    		font-size: 32px;
-
+			min-width: 82%;
+    		font-size: 1.15rem;
 		}
 	}
 
@@ -177,7 +176,6 @@
 }
 
 .atividades {
-	width: 100vw;
 	height: 100vh;
 }
 
@@ -238,7 +236,7 @@
 	
 	@media(max-width: 768px){
 		.conteiner-atividades-itens {
-			width: 58%;
+			width: 80%;
 		    height: 55vh;
 		    display: flex;
 		    flex-wrap: wrap;
@@ -249,7 +247,7 @@
 
 .img-atividade {
 	width: 10vw;
-	height: 14vh;
+	padding-bottom: 1rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -262,7 +260,7 @@
 }
 
 .titulos-atividades {
-	font-size: 23px;
+	font-size: .85rem;
 }
 
 .texto-movel{
@@ -270,7 +268,7 @@
 
 	@media(max-width: 768px){
 		.texto-movel{
-			width: 100%;
+			height: 30%;
 			display: flex;
 		    justify-content: center;
 		}
@@ -282,31 +280,29 @@
 
 	@media(max-width: 768px){
 		.texto-recrutando-mobile{
-			width: 52%;
-			height: 20vh;
+			width: 90%;
 		    display: block;
-		    font-size: 32px;
+		    font-size: 1.15rem;
 		    font-family: KorolevL;
 		}
 	}
 
 .parceria {
-	height: 35vh;
+	height: 90vh;
 }
 
 .titulo-parceiros {
 	width: 100%;
 	color: #FFFFFF;
 	font-family: Comfortaa;
-	font-size: 45px;
+	font-size: 2rem;
 	display: flex;
     justify-content: center;
 }
 
 	@media(max-width: 768px){
 		.titulo-parceiros {
-			display: flex;
-			justify-content: flex-start;
+			
 		}
 	}
 
@@ -318,6 +314,7 @@
 	@media(max-width: 768px){
 		.img-logo-parceria {
 			width: 30%;
+			margin: 0;
 		}
 	}
 
@@ -329,9 +326,11 @@
 
 	@media(max-width: 768px){
 		.caixa-logo-parceria {
-	       	height: 26vh;
+			height: 100%;
 			display: flex;
 	    	flex-direction: column;
+	    	align-items: center;
+	    	justify-content: space-evenly;
     		
 		}
 	}
@@ -346,12 +345,12 @@
 	@media(max-width: 768px){
 		.caixa-parceria {
 			width: 100%;
+			height: 70%;
 		}
 	}
 
 .caixa-parceria-conteudo {
 	width: 38%;
-	height: 85%;
 	display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -359,7 +358,7 @@
 
 	@media(max-width: 768px){
 		.caixa-parceria-conteudo{
-			width: 70%;
+			width: 100%;
 		}
 	}
 
@@ -434,6 +433,22 @@
 	color: #FFDB39;
 }
 
+	@media(max-width: 768px){
+		.caixa-contatos {
+
+		}
+	}
+
+.titulo-contato-mob	{
+	display: none;
+}
+
+	@media(max-width: 768px){
+		.titulo-contato-mob	{
+			display: block;
+		}
+	}
+
 .conteiner-ultimo-footer {
 	background-color: #FFFFFF;
 	width: 100%;
@@ -455,6 +470,7 @@
 	font-size: 10px;
 	color: #000000;
 }
+
 .logo-desenvolvedor {
 	width: 50px;
 	height: 30px;
