@@ -182,7 +182,7 @@
 
 	@media(max-width: 768px){
 		.atividades {
-		    height: 76vh;
+		    height: 70vh;
 		    display: flex;
 		    flex-direction: column;
 		    align-items: center;
@@ -213,7 +213,7 @@
 
 	@media(max-width: 768px){
 		.conteiner-atividades {
-			width: 90%;
+			width: 84%;
 		    display: flex;
 		    justify-content: center;
 		}
@@ -245,12 +245,26 @@
 	
 	@media(max-width: 768px){
 		.conteiner-atividades-itens {
-			width: 80%;
-		    height: 55vh;
+			width: 100%;
+		    height: 30vh;
 		    display: flex;
 		    flex-wrap: wrap;
 		    margin: 0;
+		}
+	}
 
+.primeira-box-organizacao-ativ {
+    width: 60%;
+    height: 100%;
+	display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+	@media(max-width: 768px){
+		.primeira-box-organizacao-ativ {
+    		width: 87%;
+			height: 40%;
 		}
 	}
 
@@ -271,6 +285,21 @@
 .titulos-atividades {
 	font-size: .85rem;
 }
+
+.segunda-box-organizacao-ativ {
+    width: 40%;
+    height: 100%;
+	display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+	@media(max-width: 768px){
+		.segunda-box-organizacao-ativ {
+			width: 55%;
+    		height: 50%;
+		}
+	}
 
 .texto-movel{
 }
@@ -327,23 +356,6 @@
 		}
 	}
 
-.caixa-logo-parceria {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-}
-
-	@media(max-width: 768px){
-		.caixa-logo-parceria {
-			height: 100%;
-			display: flex;
-	    	flex-direction: column;
-	    	align-items: center;
-	    	justify-content: space-evenly;
-    		
-		}
-	}
-
 .caixa-parceria {
 	width: 90%;
     display: flex;
@@ -368,6 +380,23 @@
 	@media(max-width: 768px){
 		.caixa-parceria-conteudo{
 			width: 100%;
+		}
+	}
+
+.caixa-logo-parceria {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+	@media(max-width: 768px){
+		.caixa-logo-parceria {
+			height: 100%;
+			display: flex;
+	    	flex-direction: column;
+	    	align-items: center;
+	    	justify-content: space-evenly;
+    		
 		}
 	}
 
@@ -448,16 +477,103 @@
 		}
 	}
 
-.titulo-contato-mob	{
+.conteiner-footer--mobile {
 	display: none;
 }
 
 	@media(max-width: 768px){
-		.titulo-contato-mob	{
+		.conteiner-footer--mobile {
+			height: 30vh;
 			display: block;
+			background-color: #B124D2;
 		}
 	}
 
+	@media(max-width: 768px){
+		.box-titulo-contato-mob {
+			width: 100%;
+		}
+	}
+
+	@media(max-width: 768px){
+		.titulo-contato--mobile {
+			width: 100%;
+			height: 10vh;
+		    color: #FFFFFF;
+		    font-family: Comfortaa;
+		    font-size: 2rem;
+		    display: flex;
+		    justify-content: center;
+		}
+	}
+
+	@media(max-width: 768px){
+		.conteiner-contatos {
+
+		}
+	}
+
+	@media(max-width: 768px){
+		.box-textos-contato {
+			color: #00FFCB;
+			font-family: KorolevM;
+		}
+	}
+
+	@media(max-width: 768px){
+		.box-tel-mob {
+
+		}
+	}
+
+	@media(max-width: 768px){
+		.titulo-tel-contato-mob {
+
+		}
+	}
+
+	@media(max-width: 768px){
+		.box-email-mob {
+
+		}
+	}
+
+	@media(max-width: 768px){
+		.titulo-email-contato-mob {
+
+		}
+	}
+
+	@media(max-width: 768px){
+		.caixa-contato--mobile {
+			color: #FFFFFF;
+			font-family: KorolevL;
+		}
+	}
+
+	@media(max-width: 768px){
+		.box-numero-contato-mob {
+
+		}
+	}
+
+	@media(max-width: 768px){
+		.numero-contato-mob {
+
+		}
+	}
+
+	@media(max-width: 768px){
+		.box-emai-contato-mob {
+
+		}
+	}
+
+	@media(max-width: 768px){
+		.email-contato-mob {
+
+		}
+	}
 .conteiner-ultimo-footer {
 	background-color: #FFFFFF;
 	width: 100%;
