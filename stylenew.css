@@ -33,8 +33,6 @@
 		}
 	}
 
-	@media
-
 .caixa-logo {
     width: 25%;
     display: flex;
@@ -47,6 +45,17 @@
 		.caixa-logo{
 			height: 57%;
 		    width: 40%;
+		    display: flex;
+		    align-items: flex-end;
+		}
+	}
+
+	@media(max-width: 375px){
+		.caixa-logo {
+			height: 40%;
+		    width: 34%;
+		    display: flex;
+		    justify-content: flex-end;
 		    align-items: flex-end;
 		}
 	}
@@ -58,6 +67,12 @@
 	@media(max-width: 768px){
 		.logo {
 			width: 50%;
+		}
+	}
+
+	@media(max-width: 375px){
+		.logo {
+			width: 80%;
 		}
 	}
 
@@ -79,6 +94,14 @@
 		}
 	}
 
+	@media(max-width: 768){
+		.conteiner-menu {
+			width: 38%;
+		    display: flex;
+		    justify-content: flex-start;
+		}
+	}
+
 .menu {
 	width: 100%;
 }
@@ -89,6 +112,15 @@
 			height: 100%;
 			display: flex;
     		justify-content: center;
+		}
+	}
+
+	@media(max-width: 768px){
+		.menu {
+		    width: 45%;
+		    height: 50%;
+			display: flex;
+		    align-items: flex-end;
 		}
 	}
 
