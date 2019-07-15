@@ -43,19 +43,33 @@
 				<div id="sobre" class="caixa-sobre">					
 					<div class="caixa-descricao">
 						<h2 class="sobre-titulo">Promovendo atividades desde 2010.</h2>
-
+					</div>
+					<div class="box-slide">
+						<span>
 						<p class="descricao-sobre">O projeto foi criado em 2010, em uma época onde a falta de oportunidades para adolescentes era muito grande funcionando desde então promovendo atividades culturais e profissionalizantes gratuitas.</p>
+						</span>
+						<div class="slide">
+					  		<figure>
+					  			<img src="./assets/Icone-Seta_kamile.svg" onclick="plusDivs(1)" class="arrow-left" />
+					  		</figure>
+							<div for="slide" class="slide-box">
+								<img class="img-slide" src="./assets/imgconteudo.jpg" alt="">
+							</div> 
+							<div for="slide" class="slide-box">
+								<img class="img-slide" src="./assets/conversando.jpg" alt="">
+							</div> 
+							<div for="slide" class="slide-box">
+								<img class="img-slide" src="./assets/foto.jpg" alt="">
+							</div> 
+							<div for="slide" class="slide-box">
+								<img class="img-slide" src="./assets/foto1.jpg">
+							</div>
+							<div for="slide" class="slide-box">
+								<img class="img-slide" src="./assets/dançando.jpg">
+							</div>
+							<figure><img src="./assets/Icone-Seta_kamile.svg"  onclick="plusDivs(-1)" class="arrow-right"></figure>
+		    			</div>
 					</div>
-					<div>
-						<figure>
-							<img src="">
-						</figure>
-						<figure>
-							<img src="">
-						</figure>
-						<span class="caixa-projeto-slide"></span>						
-					</div>
-				
 				</div>
 			</section>
 			<section id="atividades" class="atividades">
@@ -173,21 +187,6 @@
 				</div>
 			</div>
 
-			<div class="box-slide">
-			  <div class="slide">
-			  	<figure><img src="./assets/imgconteudo.jpg" onclick="plusDivs(1)"></figure>
-				<div for="slide" class="slide-box">
-					<img class="img-slide" src="./assets/dançando.jpg" alt="">
-				</div> 
-				<div for="slide" class="slide-box">
-					<img class="img-slide" src="./assets/conversando.jpg" alt="">
-				</div> 
-				<div for="slide" class="slide-box">
-					<img class="img-slide" src="./assets/imagem_contato.jpeg" alt="">
-				</div> 
-			<figure><img src="./assets/foto1.jpg"  onclick="plusDivs(-1)"></figure>
-		    </div>
-        </div>
 		</footer>
 
 
@@ -207,7 +206,7 @@
 		  for (i = 0; i < x.length; i++) {
 		     x[i].style.display = "none";  
 		  }
-		  x[slideIndex-1].style.display = "block";  
+		  x[slideIndex-1].style.display = "flex";  
 		}
 
 	</script>
