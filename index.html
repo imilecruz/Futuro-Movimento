@@ -172,6 +172,44 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="box-slide">
+			  <div class="slide">
+			  	<figure><img src="./assets/imgconteudo.jpg" onclick="plusDivs(1)"></figure>
+				<div for="slide" class="slide-box">
+					<img class="img-slide" src="./assets/dançando.jpg" alt="">
+				</div> 
+				<div for="slide" class="slide-box">
+					<img class="img-slide" src="./assets/conversando.jpg" alt="">
+				</div> 
+				<div for="slide" class="slide-box">
+					<img class="img-slide" src="./assets/imagem_contato.jpeg" alt="">
+				</div> 
+			<figure><img src="./assets/foto1.jpg"  onclick="plusDivs(-1)"></figure>
+		    </div>
+        </div>
 		</footer>
+
+
+		<script>
+		let slideIndex = 1;
+		
+		showDivs(slideIndex);
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  let i;
+		  let x = document.getElementsByClassName("slide-box");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+
+	</script>
 	</body>
 </html>

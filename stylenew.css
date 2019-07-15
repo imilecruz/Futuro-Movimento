@@ -43,8 +43,8 @@
 
 	@media(max-width: 768px){
 		.caixa-logo{
-			height: 57%;
-		    width: 40%;
+    		width: 39%;
+		    height: 50%;
 		    display: flex;
 		    align-items: flex-end;
 		}
@@ -53,10 +53,9 @@
 	@media(max-width: 375px){
 		.caixa-logo {
 			height: 40%;
-		    width: 34%;
+		    width: 40%;
 		    display: flex;
-		    justify-content: flex-end;
-		    align-items: flex-end;
+		    justify-content: center;
 		}
 	}
 
@@ -94,11 +93,10 @@
 		}
 	}
 
-	@media(max-width: 768){
+	@media(max-width: 375px){
 		.conteiner-menu {
-			width: 38%;
-		    display: flex;
-		    justify-content: flex-start;
+			width: 32%;
+			height: 100%
 		}
 	}
 
@@ -115,12 +113,10 @@
 		}
 	}
 
-	@media(max-width: 768px){
+	@media(max-width: 375px){
 		.menu {
-		    width: 45%;
-		    height: 50%;
-			display: flex;
-		    align-items: flex-end;
+		    width: 100%;
+		    height: 100%;
 		}
 	}
 
@@ -172,11 +168,15 @@
 		    align-items: flex-end;
 		    justify-content: center;
 		    width: 90%;
-		    height: 50%;
+		    height: 30%;
 		}
 	}
 
-
+	@media(max-width: 375px){
+		.menu-mobile{
+			width: 70%;
+		}
+	}
 
 	@media(max-width: 768px){
 		.menu-hamburguer {
@@ -771,4 +771,63 @@
 .logo-desenvolvedor {
 	width: 50px;
 	height: 30px;
+}
+
+
+
+/* slide*/
+
+#s-slide{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0,131,202,1) 0%, rgba(0,131,202,1) 50%, rgba(0,89,202,1) 100%);
+    display: flex;
+	justify-content: space-around;
+
+}
+
+figure {
+	display: flex;
+}
+.firstbox-simulater{
+
+}
+
+.box-slide {
+    width: 62%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.slide{
+	display: flex;
+    position: relative;
+/*    box-shadow: 0px 1px 54px -20px rgba(0,0,0,0.75);*/
+}
+.pai-slide{
+	width: 95%;
+    height: 95%;
+    background-color: blue;
+}
+input{
+	display: none;
+}
+input:checked ~ .slide-box-2{
+	display: none;
+}
+.slide-box-1,.slide-box-2{
+	cursor: pointer;
+}
+
+
+.img-slide{
+	width: 70%;
+    height: 98%;
+	border-radius: 5%;
 }
