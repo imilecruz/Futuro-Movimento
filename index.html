@@ -24,7 +24,7 @@
 					    </div>
 					</div>
 					<nav class="menu">
-				 		<ul class="menu-lista">
+				 		<ul id="menuMobile" class="menu-lista">
 			       			<li class="menu-item"><a href="#sobre">Sobre </a></li>
 			       			<li class="menu-item"><a href="#atividades">Atividades</a></li>
 			        		<li class="menu-item"><a href="#contatos">Contato</a></li>
@@ -42,19 +42,33 @@
 				<div id="sobre" class="caixa-sobre">					
 					<div class="caixa-descricao">
 						<h2 class="sobre-titulo">Promovendo atividades desde 2010.</h2>
-
+					</div>
+					<div class="box-slide">
+						<span>
 						<p class="descricao-sobre">O projeto foi criado em 2010, em uma época onde a falta de oportunidades para adolescentes era muito grande funcionando desde então promovendo atividades culturais e profissionalizantes gratuitas.</p>
+						</span>
+						<div class="slide">
+					  		<figure>
+					  			<img src="./assets/Icone-Seta_kamile.svg" onclick="plusDivs(1)" class="arrow-left" />
+					  		</figure>
+							<div for="slide" class="slide-box">
+								<img class="img-slide" src="./assets/imgconteudo.jpg" alt="">
+							</div> 
+							<div for="slide" class="slide-box">
+								<img class="img-slide" src="./assets/conversando.jpg" alt="">
+							</div> 
+							<div for="slide" class="slide-box">
+								<img class="img-slide" src="./assets/foto.jpg" alt="">
+							</div> 
+							<div for="slide" class="slide-box">
+								<img class="img-slide" src="./assets/foto1.jpg">
+							</div>
+							<div for="slide" class="slide-box">
+								<img class="img-slide" src="./assets/dançando.jpg">
+							</div>
+							<figure><img src="./assets/Icone-Seta_kamile.svg"  onclick="plusDivs(-1)" class="arrow-right"></figure>
+		    			</div>
 					</div>
-					<div>
-						<figure>
-							<img src="">
-						</figure>
-						<figure>
-							<img src="">
-						</figure>
-						<span class="caixa-projeto-slide"></span>						
-					</div>
-				
 				</div>
 			</section>
 			<section id="atividades" class="atividades">
@@ -161,7 +175,7 @@
 							<p class="titulo-email-contato-mob">Email:</p>
 						</span>
 					</div>
-					<div class="caixa-contato--mobile">
+					<div id="contatos" class="caixa-contato--mobile">
 						<span class="box-numero-contato-mob">
 							<p class="numero-contato-mob">(21) 98811-0220</p>
 						</span>
@@ -171,6 +185,29 @@
 					</div>
 				</div>
 			</div>
+
 		</footer>
+
+
+		<script>
+		let slideIndex = 1;
+		
+		showDivs(slideIndex);
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  let i;
+		  let x = document.getElementsByClassName("slide-box");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "flex";  
+		}
+
+	</script>
 	</body>
 </html>
