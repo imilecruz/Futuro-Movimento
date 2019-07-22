@@ -338,8 +338,10 @@
 	}
 
 .img-ilustracao {
-	width: 30vw;
+	width: 20vw;
+    height: 40vh;
     border-radius: 50%;
+    object-fit: fill;
 }
 
 	@media(max-width: 768px){
@@ -404,7 +406,7 @@
 
 .primeira-box-organizacao-ativ {
     width: 60%;
-    height: 100%;
+    height: 1%;
 	display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -443,7 +445,7 @@
 
 .segunda-box-organizacao-ativ {
     width: 40%;
-    height: 100%;
+    height: 1%;
 	display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -583,7 +585,7 @@
 
 .texto-recrutando-desktop {
 	width: 61vw;
-    height: 15vh;
+    height: 18vh;
 	font-size: 22px;
 	font-family: KorolevL;
 }
@@ -623,7 +625,8 @@
 }    
 
 .img-ilustracao-footer {
-	width: 33vw;
+	width: 30vw;
+    height: 25rem;
     border-radius: 50%;
     position: relative;
     bottom: -5em;
