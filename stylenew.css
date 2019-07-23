@@ -8,6 +8,7 @@
 	background-image: url(./assets/teladefundo.png);
 	background-repeat: no-repeat;
 	background-position: top right;
+	background-size: cover; 
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -172,7 +173,6 @@
 			background-image: url('./assets/img_menu.svg');
 			background-size: cover;
 			background-repeat: no-repeat;
-			
 			margin-bottom: .65rem;
 		}
 	}
@@ -182,6 +182,13 @@
 	color: #fff;
 	font-size: .75rem;
 }
+
+.menu-item-mob a {
+	text-decoration: none;
+	color: #fff;
+	font-size: .75rem;
+}
+
 
 .conteiner-menu-mobile {
   width: 100%;
@@ -341,8 +348,9 @@
 
 	@media (max-width: 768px){
 		.descricao-sobre {
+			height: 35vh;
 			min-width: 82%;
-    		font-size: 1.5rem;
+    		font-size: 1.1rem;
 		}
 	}
 
@@ -401,8 +409,8 @@
 
 	@media(max-width: 375px){
 		.conteiner-atividades {
-			width: 70%;
-			height: 30%;
+			width: 77%;
+			height: 15%;
 			display: flex;
 			align-items: baseline;
 		}
@@ -427,7 +435,7 @@
 	@media(max-width: 768px){
 		.conteiner-atividades-itens {
 			width: 100%;
-		    height: 70%;
+		    height: 60%;
 		    display: flex;
 		    flex-wrap: wrap;
 		    margin: 0;
@@ -464,10 +472,17 @@
 	}
 
 .caixa-atividades {
+
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
+
+	@media(max-width: 768px){
+		.caixa-atividades {
+			height: 60%;
+		}
+	}
 
 .titulos-atividades {
 	font-size: .85rem;
@@ -484,16 +499,13 @@
 	@media(max-width: 768px){
 		.segunda-box-organizacao-ativ {
 			width: 55%;
-    		height: 50%;
+    		height: 40%;
 		}
 	}
 
-.texto-movel{
-}
-
 	@media(max-width: 768px){
 		.texto-movel{
-			height: 30%;
+			height: 40%;
 			display: flex;
 		    justify-content: center;
 		}
@@ -812,7 +824,7 @@
 }
 
 .ultimo-footer {
-	width: 11%;
+	width: 10%;
     height: 13vh;
     display: flex;
     justify-content: space-evenly;
@@ -823,11 +835,13 @@
 .texto-desenvolvedores {
 	font-size: 10px;
 	color: #000000;
+	display: flex;
+	white-space: nowrap;
+
 }
 
 .logo-desenvolvedor {
-	width: 50px;
-	height: 30px;
+	width: 80%;
 }
 
 
